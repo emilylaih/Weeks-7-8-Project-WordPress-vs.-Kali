@@ -1,5 +1,4 @@
 # Weeks-7-8-Project-WordPress-vs.-Kali
-# Project 7 - WordPress Pentesting
 
 Time spent: **X** hours spent in total
 

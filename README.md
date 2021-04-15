@@ -76,8 +76,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
-
+I couldn't run the webpage on my host machine probably due to my anti-virus software so I use my kali linux to browse the webpage and complete this assignment.
 ## License
 
     Copyright [yyyy] [name of copyright owner]

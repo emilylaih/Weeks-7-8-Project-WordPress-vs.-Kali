@@ -18,7 +18,7 @@ Time spent: **X** hours spent in total
   - [x] Steps to recreate: 
   1. First add a new post
   2. click add media in the add new post page and choose a picture to upload to the webpage
-  3. insert <IFRAME SRC="javascript:alert('XSS attack!!!');"></IFRAME> code between the <a> tags in the text section.
+  3. insert <IFRAME SRC="javascript:alert('XSS attack!!!');"></IFRAME> code between the <a> tags in the text section to perform cross-site scripting attack.
   4. Click publish
   
  <img src='https://user-images.githubusercontent.com/57808274/114908884-639ea880-9dd1-11eb-91da-59f59bcd97e2.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />

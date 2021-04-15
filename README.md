@@ -15,6 +15,8 @@ Time spent: **X** hours spent in total
  <img src='https://user-images.githubusercontent.com/57808274/114906218-ad39c400-9dce-11eb-9e0c-2c3fbd1e2eb6.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
   - [ ] Steps to recreate: 
+ <img src='https://user-images.githubusercontent.com/57808274/114908884-639ea880-9dd1-11eb-91da-59f59bcd97e2.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
+
   - [x] Affected source code: https://blog.wpscan.com/wordpress/security/release/2019/10/15/wordpress-524-security-release-breakdown.html
     - [Link 1](https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/)
     - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17672)  

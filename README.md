@@ -17,7 +17,7 @@ Time spent: **X** hours spent in total
 
   - [x] Steps to recreate: 
   1. First add a new post
-  2. click add media in the edit post page
+  2. click add media in the add new post page and choose a picture to upload to the webpage
   3. insert <IFRAME SRC="javascript:alert('XSS attack!!!');"></IFRAME> code between the <a> tags in the text section.
   4. Click publish
   

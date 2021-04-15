@@ -16,6 +16,11 @@ Time spent: **X** hours spent in total
 
 
   - [x] Steps to recreate: 
+  1. First add a new post
+  2. click add media in the edit post page
+  3. insert <IFRAME SRC="javascript:alert('XSS attack!!!');"></IFRAME> code between the <a> tags in the text section.
+  4. Click publish
+  
  <img src='https://user-images.githubusercontent.com/57808274/114908884-639ea880-9dd1-11eb-91da-59f59bcd97e2.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
 
   - [x] Affected source code: https://blog.wpscan.com/wordpress/security/release/2019/10/15/wordpress-524-security-release-breakdown.html

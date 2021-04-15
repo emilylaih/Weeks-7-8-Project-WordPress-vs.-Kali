@@ -11,7 +11,8 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Cross-site Scripting
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.2.25
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: ![screen1](https://user-images.githubusercontent.com/57808274/114906218-ad39c400-9dce-11eb-9e0c-2c3fbd1e2eb6.gif)
+
 
   - [ ] Steps to recreate: 
   - [x] Affected source code: https://blog.wpscan.com/wordpress/security/release/2019/10/15/wordpress-524-security-release-breakdown.html

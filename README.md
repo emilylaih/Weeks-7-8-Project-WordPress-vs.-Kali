@@ -8,15 +8,15 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 ### 1. (Required) 
-  - [ ] Summary: WordPress <= 5.2.3 Stored XSS in Style Tags
-    - Vulnerability types: Stored XSS in Style Tags
+  - [x] Summary: WordPress <= 5.2.3 Stored XSS in Style Tags, ID CVE-2019-17672
+    - Vulnerability types: Cross-site Scripting
     - Tested in version: WordPress 4.2
     - Fixed in version: 4.2.25
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-    - [Link 1](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17672)  
+    - [Link 1](https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/)
+    - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17672)  
 ### 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

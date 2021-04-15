@@ -7,11 +7,11 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+### 1. (Required) 
+  - [ ] Summary: WordPress <= 5.2.3 Stored XSS in Style Tags
+    - Vulnerability types: Stored XSS in Style Tags
+    - Tested in version: WordPress 4.2
+    - Fixed in version: 4.2.25
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:

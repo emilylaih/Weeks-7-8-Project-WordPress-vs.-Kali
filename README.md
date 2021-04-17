@@ -26,15 +26,22 @@ Time spent: **X** hours spent in total
   - [x] Affected source code: https://blog.wpscan.com/wordpress/security/release/2019/10/15/wordpress-524-security-release-breakdown.html
     - [Link 1](https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/)
     - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17672)  
-### 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+### 2. WordPress < 5.4.2 - Disclosure of Password-Protected Page/Post Comments
+  - [x] Summary: 
+    - Vulnerability types:SENSITIVE DATA DISCLOSURE 
+    - Tested in version:4.2
+    - Fixed in version: 5.4.2
+  - [ ] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115097439-1dd00600-9edf-11eb-8a66-4be18b49161e.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
+  - [x] Steps to recreate: 
+
+1. Create a new post and set it to password-protect and then publish.
+2. got to the password-protected page and comment 
+3. after the admin approve the comment, navigate to the home page
+4. click on recent comments that is password-protected comment
+5. could see the comment and new post without entering password
+  - [x] Affected source code:https://core.trac.wordpress.org/changeset/47984 
+    - [Link 1](https://wpscan.com/vulnerability/eea6dbf5-e298-44a7-9b0d-f078ad4741f9)
+    - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25286)
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

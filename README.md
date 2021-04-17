@@ -31,7 +31,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types:SENSITIVE DATA DISCLOSURE 
     - Tested in version:4.2
     - Fixed in version: 5.4.2
-  - [ ] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115097439-1dd00600-9edf-11eb-8a66-4be18b49161e.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
+  - [x] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115097439-1dd00600-9edf-11eb-8a66-4be18b49161e.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
   - [x] Steps to recreate: 
 
 1. Create a new post and set it to password-protect and then publish.

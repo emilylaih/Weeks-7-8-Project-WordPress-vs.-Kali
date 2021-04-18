@@ -42,15 +42,19 @@ Time spent: **X** hours spent in total
   - [x] Affected source code:https://core.trac.wordpress.org/changeset/47984 
     - [Link 1](https://wpscan.com/vulnerability/eea6dbf5-e298-44a7-9b0d-f078ad4741f9)
     - [Link 2](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25286)
-### 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+### 3. WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
+  - [x] Summary: 
+    - Vulnerability types:Cross-site Scripting
+    - Tested in version:4.2
+    - Fixed in version:4.7.3
+  - [x] GIF Walkthrough: <img src='https://user-images.githubusercontent.com/57808274/115135886-c4e09a80-9fd0-11eb-9d7a-8ace58460427.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
+  - [x] Steps to recreate:
+1. Create a new post
+2. type [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(x)\x3e'][/embed] in the text area of the post
+3. Click publish and it's done, users visitng the post will be affected by a XSS attack.
+  - [x] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8 
+    - [Link 1]https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0?__cf_chl_jschl_tk__=1bbd38b1b3d23f8e1e6d9857ecb89ea5a1083ac3-1618724119-0-AdtoNWKKol433q1aWoJ9Q0vY9sNVR3v5wJVEcnDQ0gb3OG2Qtd0t30Jzc5nKg2kdv7k6B_snDb9i7uBoVjUscH-pphLrqKrj198Vr0p0FY8WS7doNhf8lyrLWcf7XiN6anIEUUGfXDb0DsbTHWp1gdt6_EogBo61RcSYNI5Pv951cXWsIZPCcxLhC4lnuSIgWEJAR1Lma80PcLlYL9B-HSPQHyxiUJfSHzbfp-RL3Ekenrd6VxHWW7-HJt3A-5Ya-xXJRP0nZjSLq0bEUfMaJbw4tK-qrPFUH7VFsBUT7H4aHU_M5nl0ORpAPc2I9lHtBF5QGfbY7q1f3aHQtF5DpO8nB3-2d43lEFPWbtdUKNJaMOs6ybAw2cOzq55bmQsIXlA9rWEheq5c_X14ekmIUUSCAQfO31epp5C-88vM9ZluCFYrkaIhWlT59ITYqqwrflLWy3zYG6v9NBnlGmibtJ1P29QLiMg06f_VTMrFof6Y7Agmth5amYugwJBWQ1YL8A
+    - [Link 2]
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

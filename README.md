@@ -55,20 +55,24 @@ Time spent: **X** hours spent in total
   - [x] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8 
     - [Link 1]https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0?__cf_chl_jschl_tk__=1bbd38b1b3d23f8e1e6d9857ecb89ea5a1083ac3-1618724119-0-AdtoNWKKol433q1aWoJ9Q0vY9sNVR3v5wJVEcnDQ0gb3OG2Qtd0t30Jzc5nKg2kdv7k6B_snDb9i7uBoVjUscH-pphLrqKrj198Vr0p0FY8WS7doNhf8lyrLWcf7XiN6anIEUUGfXDb0DsbTHWp1gdt6_EogBo61RcSYNI5Pv951cXWsIZPCcxLhC4lnuSIgWEJAR1Lma80PcLlYL9B-HSPQHyxiUJfSHzbfp-RL3Ekenrd6VxHWW7-HJt3A-5Ya-xXJRP0nZjSLq0bEUfMaJbw4tK-qrPFUH7VFsBUT7H4aHU_M5nl0ORpAPc2I9lHtBF5QGfbY7q1f3aHQtF5DpO8nB3-2d43lEFPWbtdUKNJaMOs6ybAw2cOzq55bmQsIXlA9rWEheq5c_X14ekmIUUSCAQfO31epp5C-88vM9ZluCFYrkaIhWlT59ITYqqwrflLWy3zYG6v9NBnlGmibtJ1P29QLiMg06f_VTMrFof6Y7Agmth5amYugwJBWQ1YL8A
     - [Link 2] https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+### 4. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+  - [x] Summary: 
+    - Vulnerability types:Cross-Site Scripting
+    - Tested in version:4.2
+    - Fixed in version: 4.2.3
+  - [x] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115136268-839dba00-9fd3-11eb-9359-8dabd7220ab5.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
+  - [x] Steps to recreate: 
+
+<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> 
+
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1]https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d?__cf_chl_jschl_tk__=95a6de67264fd1e350aef454ed95b445c1af29fc-1618726071-0-AVs4MZPJ5McWrALJzYP6KPufKnjaeAvNe846Azhl5O5LGTaZV2kN_Voj_zEKOPhUN2vxIGqMOjGovmyGxDLu1p2p6JG3M5s7v0ef7z02gUUSuzQkLuteHPAHjnOD6NZvG18azSbPIkHl4e_3tcq_uAvhQXJe_k8CKl-CL1f5MMnvNcp8cZjVR_MdgzDbBl7GQW8rekitRsRCLURxQ1nBkguCJiRJdK9H9gV3bM9xh63FlWZl6OiDPwm8ZG4W0tBLrMO5rmIrLnlvhOHghlkWHoh0Gt3SqApWli7gCPXsPQYQmmndLNaiS1TsAHySGUv86v13TNfOfgUtF_7M1rk7ssUS3mGwzp4BdFjklCKHn3jyfDEWWTSOafkZV9U-v1he5qDZWx126B6l_wgvfUgqdk_E0jXdZPKZFzjyxLhVkUqwC2iDltk87DqIglMhIQ0ZwHLn0oXrg4k2c2E60eJgjFOjG7tDdkhgT9rwKAirzQYyTIotb0tD5pEtqMsNk-uhZQ
+   -[Link 2]https://klikki.fi/adv/wordpress3.html
+   -[Link 3]https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622
 ### 5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
-    - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:

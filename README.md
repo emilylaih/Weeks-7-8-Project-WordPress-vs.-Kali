@@ -62,7 +62,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.3
   - [x] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115136268-839dba00-9fd3-11eb-9359-8dabd7220ab5.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
-1. I use admin account to create a new post
+1. I use admin account to create a new post(need to be a editor user or up)
 2. in the new post type <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>  in the text area of the post
 3. Click publish and users navigating to the post will be affected by the attack
 

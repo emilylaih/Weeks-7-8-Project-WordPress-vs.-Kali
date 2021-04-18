@@ -67,7 +67,7 @@ Time spent: **X** hours spent in total
 3. Click publish and users navigating to the post will be affected by the attack
 
 
-  - [ ] Affected source code:
+  - [x] Affected source code:https://core.trac.wordpress.org/browser/trunk/src/wp-includes/shortcodes.php
     - [Link 1]https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d?__cf_chl_jschl_tk__=95a6de67264fd1e350aef454ed95b445c1af29fc-1618726071-0-AVs4MZPJ5McWrALJzYP6KPufKnjaeAvNe846Azhl5O5LGTaZV2kN_Voj_zEKOPhUN2vxIGqMOjGovmyGxDLu1p2p6JG3M5s7v0ef7z02gUUSuzQkLuteHPAHjnOD6NZvG18azSbPIkHl4e_3tcq_uAvhQXJe_k8CKl-CL1f5MMnvNcp8cZjVR_MdgzDbBl7GQW8rekitRsRCLURxQ1nBkguCJiRJdK9H9gV3bM9xh63FlWZl6OiDPwm8ZG4W0tBLrMO5rmIrLnlvhOHghlkWHoh0Gt3SqApWli7gCPXsPQYQmmndLNaiS1TsAHySGUv86v13TNfOfgUtF_7M1rk7ssUS3mGwzp4BdFjklCKHn3jyfDEWWTSOafkZV9U-v1he5qDZWx126B6l_wgvfUgqdk_E0jXdZPKZFzjyxLhVkUqwC2iDltk87DqIglMhIQ0ZwHLn0oXrg4k2c2E60eJgjFOjG7tDdkhgT9rwKAirzQYyTIotb0tD5pEtqMsNk-uhZQ
    -[Link 2]https://klikki.fi/adv/wordpress3.html
    -[Link 3]https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5622

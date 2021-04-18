@@ -1,6 +1,6 @@
 # Weeks-7-8-Project-WordPress-vs.-Kali
 
-Time spent: **X** hours spent in total
+Time spent: **11** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 

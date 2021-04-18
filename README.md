@@ -54,7 +54,7 @@ Time spent: **X** hours spent in total
 3. Click publish and it's done, users visitng the post will be affected by a XSS attack.
   - [x] Affected source code:https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8 
     - [Link 1]https://wpscan.com/vulnerability/3ee54fc3-f4b4-4c35-8285-9d6719acecf0?__cf_chl_jschl_tk__=1bbd38b1b3d23f8e1e6d9857ecb89ea5a1083ac3-1618724119-0-AdtoNWKKol433q1aWoJ9Q0vY9sNVR3v5wJVEcnDQ0gb3OG2Qtd0t30Jzc5nKg2kdv7k6B_snDb9i7uBoVjUscH-pphLrqKrj198Vr0p0FY8WS7doNhf8lyrLWcf7XiN6anIEUUGfXDb0DsbTHWp1gdt6_EogBo61RcSYNI5Pv951cXWsIZPCcxLhC4lnuSIgWEJAR1Lma80PcLlYL9B-HSPQHyxiUJfSHzbfp-RL3Ekenrd6VxHWW7-HJt3A-5Ya-xXJRP0nZjSLq0bEUfMaJbw4tK-qrPFUH7VFsBUT7H4aHU_M5nl0ORpAPc2I9lHtBF5QGfbY7q1f3aHQtF5DpO8nB3-2d43lEFPWbtdUKNJaMOs6ybAw2cOzq55bmQsIXlA9rWEheq5c_X14ekmIUUSCAQfO31epp5C-88vM9ZluCFYrkaIhWlT59ITYqqwrflLWy3zYG6v9NBnlGmibtJ1P29QLiMg06f_VTMrFof6Y7Agmth5amYugwJBWQ1YL8A
-    - [Link 2]
+    - [Link 2] https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

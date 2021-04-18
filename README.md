@@ -62,8 +62,10 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.3
   - [x] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115136268-839dba00-9fd3-11eb-9359-8dabd7220ab5.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
+1. I use admin account to create a new post
+2. in the new post type <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>  in the text area of the post
+3. Click publish and users navigating to the post will be affected by the attack
 
-<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> 
 
   - [ ] Affected source code:
     - [Link 1]https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d?__cf_chl_jschl_tk__=95a6de67264fd1e350aef454ed95b445c1af29fc-1618726071-0-AVs4MZPJ5McWrALJzYP6KPufKnjaeAvNe846Azhl5O5LGTaZV2kN_Voj_zEKOPhUN2vxIGqMOjGovmyGxDLu1p2p6JG3M5s7v0ef7z02gUUSuzQkLuteHPAHjnOD6NZvG18azSbPIkHl4e_3tcq_uAvhQXJe_k8CKl-CL1f5MMnvNcp8cZjVR_MdgzDbBl7GQW8rekitRsRCLURxQ1nBkguCJiRJdK9H9gV3bM9xh63FlWZl6OiDPwm8ZG4W0tBLrMO5rmIrLnlvhOHghlkWHoh0Gt3SqApWli7gCPXsPQYQmmndLNaiS1TsAHySGUv86v13TNfOfgUtF_7M1rk7ssUS3mGwzp4BdFjklCKHn3jyfDEWWTSOafkZV9U-v1he5qDZWx126B6l_wgvfUgqdk_E0jXdZPKZFzjyxLhVkUqwC2iDltk87DqIglMhIQ0ZwHLn0oXrg4k2c2E60eJgjFOjG7tDdkhgT9rwKAirzQYyTIotb0tD5pEtqMsNk-uhZQ

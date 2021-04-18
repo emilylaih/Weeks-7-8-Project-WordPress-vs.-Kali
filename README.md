@@ -30,7 +30,7 @@ Time spent: **X** hours spent in total
   - [x] Summary: 
     - Vulnerability types:SENSITIVE DATA DISCLOSURE 
     - Tested in version:4.2
-    - Fixed in version: 5.4.2
+    - Fixed in version: 4.2.28
   - [x] GIF Walkthrough:  <img src='https://user-images.githubusercontent.com/57808274/115097439-1dd00600-9edf-11eb-8a66-4be18b49161e.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
 
@@ -46,7 +46,7 @@ Time spent: **X** hours spent in total
   - [x] Summary: 
     - Vulnerability types:Cross-site Scripting
     - Tested in version:4.2
-    - Fixed in version:4.7.3
+    - Fixed in version:4.2.13
   - [x] GIF Walkthrough: <img src='https://user-images.githubusercontent.com/57808274/115135886-c4e09a80-9fd0-11eb-9d7a-8ace58460427.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
   - [x] Steps to recreate:
 1. Create a new post

@@ -47,7 +47,7 @@ Time spent: **11** hours spent in total
     - Vulnerability types:Cross-site Scripting
     - Tested in version:4.2
     - Fixed in version:4.2.13
-  - [x] GIF Walkthrough: <img src='https://user-images.githubusercontent.com/57808274/115135886-c4e09a80-9fd0-11eb-9d7a-8ace58460427.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />()
+  - [x] GIF Walkthrough: <img src='https://user-images.githubusercontent.com/57808274/115135886-c4e09a80-9fd0-11eb-9d7a-8ace58460427.gif' title='Video Walkthrough' width='800' alt='Video Walkthrough' />
   - [x] Steps to recreate:
 1. Create a new post
 2. type [embed src='https://youtube.com/embed/12345\x3csvg onload=alert(x)\x3e'][/embed] in the text area of the post
